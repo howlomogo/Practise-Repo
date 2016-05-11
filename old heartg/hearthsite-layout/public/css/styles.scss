@@ -1,0 +1,26 @@
+@import '_vars';
+@import '_reset';
+@import '_grid';
+@import '_base';
+
+header, footer{
+  background-color: #FFFFFF;
+  padding: 32px;
+}
+.container{
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  min-width: $page-width;
+}
+.main-content{
+  padding: 32px;
+  background-color: #BCD39B;
+  flex:1;
+}
+.sidebar{
+  padding: 32px;
+  background-color: #CE9B64;
+  flex-basis: 220px;
+  flex-shrink: 0;
+}

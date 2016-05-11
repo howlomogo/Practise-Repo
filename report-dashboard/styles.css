@@ -1,0 +1,33 @@
+.draggable {
+  width: 160px;
+  height: 160px;
+  margin: 5px;
+  overflow: hidden; /* Margin fix */
+  position: absolute !important;
+}
+
+#container {
+  width: 1280px;
+  height: 880px;
+  position: relative;
+  border: solid 5px #ccc;
+}
+
+.resizable-helper {
+  background-color: #ddd;
+/*    border: 2px dashed #bbb;
+*/}
+
+/*# sourceMappingURL=styles.css.map */
+
+.ui-widget-content {
+/*  border: solid 1px red;
+*/
+border: none !important;
+  background-color: #666;
+/*  box-sizing: border-box !important;
+*/}
+
+h5 {
+  margin: 0px;
+}

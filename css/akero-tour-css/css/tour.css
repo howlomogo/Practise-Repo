@@ -1,0 +1,106 @@
+/* Put your css in here */
+.tour--main-container {
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 32px auto;
+  padding: 0px !important;
+  width: 960px; }
+
+.tour--container {
+  margin: 0px auto;
+  position: relative; }
+
+.steprow {
+  padding: 16px;
+  margin: 16px 0px; }
+
+.tour--step {
+  position: relative;
+  height: 80px;
+  float: left;
+  background-color: #e9f7f7;
+  border: 1px solid #c0cede;
+  cursor: pointer;
+  transition: background-color 0.3s; }
+
+.tourstepactive {
+  color: #000;
+  background-color: #4199bd; }
+  .tourstepactive .circle {
+    background-color: #fff !important;
+    color: #000; }
+  .tourstepactive .step-right {
+    color: #fff; }
+
+.tour--step:hover {
+  color: #000;
+  background-color: #4199bd; }
+  .tour--step:hover .circle {
+    background-color: #fff !important;
+    color: #000; }
+  .tour--step:hover .step-right {
+    color: #fff; }
+
+.tour--img {
+  display: block;
+  width: 360px;
+  margin: 0px auto; }
+
+.tour--step-heading {
+  text-align: center;
+  margin: 32px 0px; }
+
+.triangle {
+  position: relative;
+  height: 0px;
+  width: 0px;
+  top: 0px;
+  border-top: 100px solid transparent;
+  border-left: 200px solid #428BCA;
+  border-bottom: 100px solid transparent; }
+
+.circle {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  width: 36px;
+  height: 36px;
+  padding-top: 7px;
+  border-radius: 50%;
+  background-color: #4e4e4e;
+  text-align: center;
+  font-size: 16px;
+  color: #fff; }
+
+.step-right {
+  margin-top: 10px;
+  margin-left: 65px;
+  margin-right: 5px;
+  margin-bottom: 10px; }
+  .step-right p {
+    font-size: 12px;
+    line-height: 16px; }
+  .step-right h4 {
+    margin: 0px 0px 5px; }
+
+.content {
+  background-color: blue;
+  width: 960px;
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  transition: left 2s; }
+
+.btn {
+  background-color: purple;
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 0px 20px;
+  border-radius: 10px;
+  cursor: pointer; }
+
+.btn-container {
+  text-align: center;
+  margin: 30px 0px; }
+
+/*# sourceMappingURL=tour.css.map */

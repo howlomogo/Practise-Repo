@@ -1,0 +1,32 @@
+<html ng-app="myApp">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <script src="node_modules/angular/angular.min.js"></script>
+      <script src="app.js"></script>
+      <title>Practise - angular watch</title>
+  </head>
+  <body>
+    <div ng-controller="cont1">
+      <h1>CONT 1</h1>
+    </div>
+
+    <div ng-controller="cont2">
+      <h1>CONT 2</h1>
+    </div>  
+
+
+    <div ng-controller="cont3">
+      <h1>CONT 3</h1>
+    </div> 
+
+    <div ng-controller="cont4">
+      <h1>CONT 4</h1>
+      <h4>{{cont4data}}</h4>
+      <div ng-controller="cont5">
+        <h1>CONT 5</h1>
+        <button ng-click="changeparent()">Click Me to change parent!</button>
+      </div> 
+    </div>       
+  </body>
+</html>

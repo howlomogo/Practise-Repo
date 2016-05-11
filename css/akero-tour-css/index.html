@@ -1,0 +1,85 @@
+<!DOCTYPE>
+<html>
+
+<head>
+  <title>AngularJS Directives 2</title>
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/tour.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="tour--main-container">
+    <div class="tour--container">
+      <div class="row"> <!-- Step Navigations -->
+        <div class="col-xs-12">
+          <!-- Step navigations Repeat-->
+          <div class="tour--step" onclick="move(0)">
+            <div class="circle">1</div>
+            <div class="step-right">
+              <h4>STEP TITLE</h4>
+              <p>This is some practise information about step one.</p>
+            </div>
+          </div>
+          <div class="tour--step" onclick="move(1)">
+            <div class="circle">2</div>
+            <div class="step-right">
+              <h4>STEP TITLE</h4>
+              <p>This is some practise information about step one.</p>
+            </div>
+          </div>
+          <div class="tour--step" onclick="move(2)">
+            <div class="circle">3</div>
+            <div class="step-right">
+              <h4>STEP TITLE</h4>
+              <p>This is some practise information about step one.</p>
+            </div>
+          </div>
+          <div class="tour--step" onclick="move(3)">
+            <div class="circle">4</div>
+            <div class="step-right">
+              <h4>STEP TITLE</h4>
+              <p>This is some practise information about step one.</p>
+            </div>
+          </div>
+        </div>
+      </div> <!-- /Step Navigations -->
+
+
+
+      <div id="content" class="content">
+        <div class="row steprow"> 
+          <div class="col-xs-6">
+            <h2>This is row one title</h2>
+            <p>This is row one content</p>
+          </div>
+
+          <div class="col-xs-6">
+            <img class="tour--img" src="http://res.cloudinary.com/bigtopdev/image/upload/v1438714431/tour-test-img_kqnvz1.jpg" />
+          </div>
+        </div>
+
+        <!-- pull / push every other row -->
+        <div class="row">
+          <div class="col-xs-12 tour--step-heading">
+            <h2>This is step one heading</h2>
+          </div>
+        </div>
+
+        <div class="row steprow">
+          <div class="col-xs-6 col-xs-push-6">
+            <h2>This is row two title</h2>
+            <p>This is row two content</p>
+          </div>
+
+          <div class="col-xs-6 col-xs-pull-6">
+            <img class="tour--img" src="http://res.cloudinary.com/bigtopdev/image/upload/v1438714431/tour-test-img_kqnvz1.jpg" />
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

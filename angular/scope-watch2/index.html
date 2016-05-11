@@ -1,0 +1,17 @@
+<html ng-app="myApp">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <script src="node_modules/angular/angular.min.js"></script>
+      <script src="app.js"></script>
+      <link rel="stylesheet" type="text/css" href="styles.css">
+      <title>Practise - angular watch</title>
+  </head>
+  <body>
+    <div ng-controller="MyController">
+      <button ng-class="{'active-btn': val === activeBtn}" ng-click="setActive(val)" ng-repeat="val in mydata">{{val.name}}</button>
+    </div>
+      
+    </div>
+  </body>
+</html>

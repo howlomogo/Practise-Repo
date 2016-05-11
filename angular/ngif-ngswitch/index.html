@@ -1,0 +1,25 @@
+<html ng-app="myApp">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <script src="node_modules/angular/angular.min.js"></script>
+        <script src="app.js"></script>
+        <title>Practise - ng-if / ng-switch</title>
+    </head>
+    <body>
+    	<div ng-controller="MyController">
+    		<h1 ng-if="iftest == 1">THIS IS h1 Heading</h1>
+    		<h3 ng-if="iftest == 3">THIS IS h3 Heading</h3>
+    		<h6 ng-if="iftest == 6">THIS IS h6 Heading</h6>
+
+    		<hr>
+
+			<div ng-switch="switchtest">
+			  <h1 ng-switch-when="1">This is a h1 heading</h1>
+			  <h3 ng-switch-when="3">This is a h3 heading</h3>
+			  <h6 ng-switch-when="6">This is a h6 heading</h6>
+			  <p ng-switch-default>Nothing has been selected</p>
+			</ANY>
+    	</div>
+    </body>
+</html>

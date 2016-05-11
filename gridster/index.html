@@ -1,0 +1,35 @@
+<html>
+<head>
+
+  <link href="styles.css" rel="stylesheet"></link>
+<link href="http://slimseun.com/js/vendor/angular-gridster/angular-gridster.min.css" rel="stylesheet"></link>
+  <script src="node_modules/angular/angular.min.js"></script> 
+
+
+  <!-- // This SHOULD NOT WORK LIKE THIS BUT ITS FINE -->
+  <script src="dragula/dist/angular-dragula.js"></script>
+
+
+<script src="http://slimseun.com/js/vendor/angular-gridster/angular-gridster.min.js"></script>
+
+  <script src="app.js"></script>
+
+</head>
+
+
+<body>
+<div ng-app="mainApp" ng-controller="mainCtrl">
+  <button ng-click="something()">Add New</button>
+  <p ng-repeat="item in standardItems">{{item}}</p>
+<div gridster="gridsterOpts">
+    <ul>
+        <li style="border: solid 1px;"gridster-item="item" ng-repeat="item in standardItems">
+          <div class="ddd" style="width: 100%; background: #ddd; padding: 10px 0px">Handle</div>
+            {{ item }}
+        </li>
+    </ul>
+</div>
+</div>
+</body>
+
+</html>

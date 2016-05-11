@@ -1,0 +1,31 @@
+html, body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: $color1;
+  height: 100%;
+}
+
+hr {
+  margin: 0px;
+  border: none;
+  border-top: 1px solid $color1;
+}
+
+h1 {
+  font-family: 'Bree Serif', serif;
+  font-weight: 800;
+}
+
+ul {
+  padding-left: $gutter-half;
+  li {
+    list-style-type: none;
+    padding: 4px 0px;
+  }
+}
+
+.box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}

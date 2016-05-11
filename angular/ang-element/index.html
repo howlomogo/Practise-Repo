@@ -1,0 +1,32 @@
+<html ng-app="myApp">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <script src="node_modules/angular/angular.min.js"></script>
+      <script src="app.js"></script>
+      <title>Practise - angular element</title>
+  </head>
+  <body>
+  	<div id="testCont" ng-controller="MyController">
+      <h1> {{age}} </h1>
+    </div>
+    <!-- You can do stuff when outside a controller too -->
+    <button onclick="change('matt')">Click Me</button>
+  </body>
+  
+  <script>
+    // Totally not in the controller
+    function change(name) {
+      var appElement = document.getElementById('testCont');
+      // store the scope of MyController in donkey variable
+      var donkey = angular.element(appElement).scope();
+      // You need to apply the changes for them to update
+      donkey.$apply(function() {
+        donkey.age = 20;
+      });
+      // To call function just add .functionName() after scope()
+      var pig = angular.element(appElement).scope().monkeys(name);
+      console.log(pig);
+    }
+  </script>
+</html>

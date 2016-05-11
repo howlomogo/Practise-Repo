@@ -1,0 +1,146 @@
+html, body {
+  margin: 0px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #f0f5f9;
+  height: 100%; }
+
+hr {
+  margin: 0px;
+  border: none;
+  border-top: 1px solid #f0f5f9; }
+
+h1 {
+  font-family: 'Bree Serif', serif;
+  font-weight: 800; }
+
+ul {
+  padding-left: 16px; }
+  ul li {
+    list-style-type: none;
+    padding: 4px 0px; }
+
+.box, .col-3, .col-2, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.main-container {
+  width: 960px;
+  min-width: 1024px;
+  margin: 0px auto;
+  overflow: auto; }
+
+.row {
+  width: 100%;
+  float: left;
+  background-color: red; }
+
+.col-3 {
+  width: 8.33333%;
+  float: left;
+  background-color: green; }
+
+.col-2 {
+  width: 16.66667%;
+  float: left; }
+
+.col-3 {
+  width: 25%;
+  float: left; }
+
+.col-4 {
+  width: 33.33333%;
+  float: left; }
+
+.col-5 {
+  width: 41.66667%;
+  float: left; }
+
+.col-6 {
+  width: 50%;
+  float: left; }
+
+.col-7 {
+  width: 58.33333%;
+  float: left;
+  background-color: purple; }
+
+.col-8 {
+  width: 66.66667%;
+  float: left; }
+
+.col-9 {
+  width: 75%;
+  float: left; }
+
+.col-10 {
+  width: 83.33333%;
+  float: left; }
+
+.col-11 {
+  width: 91.66667%;
+  float: left; }
+
+.col-12 {
+  width: 100%;
+  float: left;
+  background-color: orange; }
+
+.mt {
+  margin-top: 32px; }
+
+.mt-large {
+  margin-top: 64px; }
+
+.mb {
+  margin-bottom: 32px; }
+
+.mb-large {
+  margin-bottom: 64px; }
+
+.mar {
+  margin: 32px; }
+
+.mar-large {
+  margin: 64px; }
+
+.pt {
+  padding-top: 32px; }
+
+.pt-large {
+  padding-top: 64px; }
+
+.pb {
+  padding-bottom: 32px; }
+
+.pb-large {
+  padding-bottom: 64px; }
+
+.pad, .col-3, .col-2, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  padding: 32px; }
+
+.pad-large {
+  padding: 64px; }
+
+header, footer {
+  background-color: #FFFFFF;
+  padding: 32px; }
+
+.container {
+  display: flex;
+  width: 100%;
+  min-height: 100%;
+  min-width: 960px; }
+
+.main-content {
+  padding: 32px;
+  background-color: #BCD39B;
+  flex: 1; }
+
+.sidebar {
+  padding: 32px;
+  background-color: #CE9B64;
+  flex-basis: 220px;
+  flex-shrink: 0; }
+
+/*# sourceMappingURL=styles.css.map */

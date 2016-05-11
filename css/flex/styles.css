@@ -1,0 +1,28 @@
+h1 {
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 33.333333%;
+}
+
+#box1{
+  background-color: #001f3f;
+}
+
+#box2{
+  background-color: #FF4136;
+}
+
+#box3{
+  background-color: #2ECC40;
+}
+
+#box4{
+  background-color: #FFDC00;
+}
